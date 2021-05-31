@@ -1,0 +1,84 @@
+body, html {
+    height: 90%;
+    margin: 0;
+    scroll-behavior: smooth;
+    transition: 1s ease-in-out;
+    color: #f0f8ff;
+}
+
+#background {
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    background-size: cover;
+    object-fit: cover;
+    background-color: #1C191B;
+    z-index: -3;
+    height:100vh;
+    background-image: url("../img/bg.png");
+}
+
+#main {
+    clear: both;
+    background: #0f0f0f;
+    margin: 95vh auto 10vh auto;
+    text-align: center;
+    width: 100%;
+}
+
+.iframig {
+    margin: auto;
+    padding: 60px;
+}
+
+.pasek {
+    clear: both;
+    background: #1f1f1f;
+    text-align: center;
+    width: 100%;
+}
+
+.menu {
+
+}
+
+.navbar {
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#logo-navbar {
+    margin-bottom: 4px;
+    margin-right: -3px;
+}
+
+#logo {
+    position:fixed;
+    top:calc(50% - 64px);
+    left:calc(50% - 64px);
+    z-index: -2;
+}
+
+.text-white {
+    color: #afafaf;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Pasek */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
