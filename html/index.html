@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Krystian Książkiewicz, Mateusz Korniak">
+    <link rel="icon" href="img/kotlin.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
@@ -14,23 +15,20 @@
     </div>
     <div class="menu container text-center">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark center-block">
-            <a class="navbar-brand" href="#"><img src="img/kotlin.svg" width="24px" id="logo-navbar"> Kotlin</a>
+            <a class="navbar-brand" href="#"><img src="img/kotlin.svg" width="25px" id="logo-navbar">Kotlin</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link text-white" href="#okotlinie">O kotlinie</a>
+                        <a class="nav-link text-white" href="#main">O kotlinie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#niewiemalewczesniej">nie wiem co tu można dać</a>
+                        <a class="nav-link text-white" href="#???">???</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#niewiem">tu też nie wiem co dać</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#eeedytor">Edytor</a>
+                        <a class="nav-link text-white" href="#a1">Edytor</a>
                     </li>
                 </ul>
             </div>
@@ -42,10 +40,80 @@
         <div style="text-align: center;"><h4>Kotlin</h4></div>
     </div>
     <div id="main">
-        efawefawef
+        <img id="okotlinie" src="img/kotlin.svg" width="128px" class="top-space-med">
+        <div>
+            <h1 class="title top-space-sml"> O kotlinie... </h1>
+            <p class="quote">
+                A modern programming language
+                that makes developers happier.
+            </p>
+            <div class="row top-space-sml">
+                <div class="col-sm-0 col-lg-4"></div>
+                <div class="col-sm-12 col-lg-4">
+                    <b>Kotlin</b>,<br>
+                    czyli statycznie typowany język programowania działający na maszynie wirtualnej Javy,<br>
+                    który jest głównie rozwijany przez programistów JetBrains.<br>
+                    Nazwa języka pochodzi od wyspy Kotlin niedaleko Petersburga.<br>
+                    Kotlin jest zaprojektowany z myślą o pełnej interoperacyjności z językami działającymi na maszynie wirtualnej Javy.
+                </div>
+                <div class="col-sm-0 col-lg-4"></div>
+            </div>
+            <br>
+            <hr/>
+            <h1 class="title top-space-sml scinaj-to"> Java vs Kotlin </h1>
+            <div class="row top-space-sml">
+                <div class="col-sm-0 col-lg-1"></div>
+                <div class="col-sm-6 col-lg-5">
+                    <h2 class="title top-space-sml"> Java <img class="vsimage" src="img/java.svg" width="48px"> </h2>
+                </div>
+                <div class="col-sm-6 col-lg-5">
+                    <h2 class="title top-space-sml"> Kotlin <img class="vsimage" src="img/kotlin.svg" width="48px"> </h2>
+                </div>
+                <div class="col-sm-0 col-lg-1"></div>
+            </div>
+            <div class="row top-space-med">
+                <div class="col-sm-0 col-lg-2"></div>
+                <div class="col-sm-6 col-lg-3 do-lewej">
+                    <code class="code">
+                        public class Hello {<br>
+                        public static void main(String[] args) {<br>
+                        System.out.print("Hello, world");<br>
+                        }<br>
+                        }
+                    </code>
+                </div>
+                <div class="col-sm-0 col-lg-2"><h3>Program</h3><p class="quote wieksze">Hello, world!</p></div>
+                <div class="col-sm-6 col-lg-3 do-lewej">
+                    <code class="code">
+                        fun main() {<br>
+                        println("Hello, world")<br>
+                        }
+                    </code>
+                </div>
+                <div class="col-sm-0 col-lg-2" id="???"></div>
+            </div>
+            <div class="row top-space-med">
+                <div class="col-sm-0 col-lg-2"></div>
+                <div class="col-sm-6 col-lg-3">
+                    Styczeń 1996 roku
+                </div>
+                <div class="col-sm-0 col-lg-2 trza-podniesc"><h3>Data wydania</h3></div>
+                <div class="col-sm-6 col-lg-3">
+                    Luty 2016 roku
+                </div>
+                <div class="col-sm-0 col-lg-2"></div>
+            </div>
+        </div><hr/>
+        <div>
+            <h1 class="title top-space-sml">???</h1>
+            <div class="quote">Random text</div>
+        </div><br><hr/><div id="a1">
+        <img src="img/code.svg" width="128px" class="top-space-sml">
+        <div id="edytor">
+            <h1 class="title top-space-sml przerwa-moment"> Edytor </h1>
+            <iframe src="https://pl.kotl.in/a0I8e-Ugj" id="iframe"></iframe>
+        </div>
     </div>
-<!--
-<iframe src="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjAiLCJwbGF0Zm9ybSI6ImphdmEiLCJhcmdzIjoiIiwianNDb2RlIjoiIiwibm9uZU1hcmtlcnMiOnRydWUsInRoZW1lIjoiaWRlYSIsImNvZGUiOiIvKipcbiAqIFlvdSBjYW4gZWRpdCwgcnVuLCBhbmQgc2hhcmUgdGhpcyBjb2RlLiBcbiAqIHBsYXkua290bGlubGFuZy5vcmcgXG4gKi9cblxuZnVuIG1haW4oKSB7XG4gICAgcHJpbnRsbihcIkhlbGxvLCB3b3JsZCEhIVwiKVxufSJ9" class="iframig"></iframe>
--->
+    </div>
 </body>
 </html>

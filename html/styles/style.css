@@ -1,9 +1,16 @@
+@font-face {
+    font-family: 'nazwa-nasza-bo-tak';
+    src: url('../fonts/JetBrainsMonoNL-Regular.ttf') format('truetype');
+}
+
 body, html {
-    height: 90%;
     margin: 0;
     scroll-behavior: smooth;
-    transition: 1s ease-in-out;
     color: #f0f8ff;
+    width: 100%;
+    font-family: nazwa-nasza-bo-tak, serif;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 #background {
@@ -21,10 +28,43 @@ body, html {
 
 #main {
     clear: both;
-    background: #0f0f0f;
-    margin: 95vh auto 10vh auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.95) 100%);
+    margin: 95vh auto 0 auto;
     text-align: center;
     width: 100%;
+    padding-bottom: 20px;
+}
+
+#iframe {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 15px;
+}
+
+#edytor {
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.vsimage {
+    margin-bottom: 8px;
+}
+
+.code {
+    text-align: left;
+}
+
+.main-bg-dark1 {
+    background: #0f0f0f;
+}
+
+.main-bg-dark2 {
+    background: #191919;
+}
+
+.main-bg-dark3 {
+    background: #1f1f1f;
 }
 
 .iframig {
@@ -40,7 +80,8 @@ body, html {
 }
 
 .menu {
-
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
@@ -52,9 +93,30 @@ body, html {
     background-color: rgba(0, 0, 0, 0.75);
 }
 
+.title {
+    margin-top: 100px;
+}
+
+.top-space-big {
+    margin-top: 150px;
+}
+
+.top-space-med {
+    margin-top: 100px;
+}
+
+.top-space-sml {
+    margin-top: 50px;
+}
+
+.do-lewej {
+    text-align: left;
+    margin-left: 0;
+}
+
 #logo-navbar {
-    margin-bottom: 4px;
-    margin-right: -3px;
+    margin-bottom: 3px;
+    margin-right: 4px;
 }
 
 #logo {
@@ -64,12 +126,39 @@ body, html {
     z-index: -2;
 }
 
+.quote {
+    font-style: italic;
+    color: #afafaf;
+}
+
+.wieksze {
+    font-size: 25px;
+}
+
 .text-white {
     color: #afafaf;
 }
 
+.scinaj-to {
+    margin-top: 50px;
+    margin-bottom: -70px;
+}
+
+.przerwa-moment {
+    margin-bottom: 60px;
+}
+
+.trza-podniesc {
+    margin-top: -6px;
+    margin-bottom: 25px;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.75);
 }
 
 /* Pasek */
