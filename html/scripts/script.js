@@ -1,3 +1,10 @@
+function pt() {
+    document.getElementById("a1").style.margin = "-20px 0 0 0";
+    document.getElementById("a1").style.visibility = "hidden";
+    document.getElementById("a2").style.visibility = "visible";
+    document.getElementById("a2").style.margin = "0 0 0 0";
+}
+
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;

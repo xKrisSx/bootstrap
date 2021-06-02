@@ -43,7 +43,7 @@ body, html {
 }
 
 #edytor {
-    margin-top: -40px;
+    margin-top: -30px;
     margin-bottom: 20px;
 }
 
@@ -129,12 +129,12 @@ body, html {
 
 #a1 {
     /*margin-top: 20px;*/
-    visibility: hidden;
+    visibility: visible;
 }
 
 #a2 {
-    margin-top: -35px;
-    visibility: visible;
+    margin: -35px 0 0 0;
+    visibility: hidden;
 }
 
 .quote {
@@ -156,12 +156,11 @@ body, html {
 }
 
 .przerwa-moment {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
-.trza-podniesc {
-    margin-top: -6px;
-    margin-bottom: 25px;
+.przezowanzgo {
+    margin-top: 25px;
 }
 
 ::-webkit-scrollbar {
