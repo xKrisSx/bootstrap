@@ -127,6 +127,16 @@ body, html {
     z-index: -2;
 }
 
+#a1 {
+    /*margin-top: 20px;*/
+    visibility: hidden;
+}
+
+#a2 {
+    margin-top: -35px;
+    visibility: visible;
+}
+
 .quote {
     font-style: italic;
     color: #afafaf;
