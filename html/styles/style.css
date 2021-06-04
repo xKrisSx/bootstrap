@@ -74,7 +74,7 @@ body, html {
 
 .pasek {
     clear: both;
-    background: #1f1f1f;
+    background: #575757;
     text-align: center;
     width: 100%;
 }
@@ -110,9 +110,9 @@ body, html {
     margin-top: 50px;
 }
 
-.do-lewej {
-    text-align: left;
-    margin-left: 0;
+.do-srodka {
+    text-align: center;
+    margin-bottom: -20px;
 }
 
 #logo-navbar {
@@ -161,6 +161,10 @@ body, html {
 
 .przezowanzgo {
     margin-top: 25px;
+}
+
+.wiekszybrrr {
+    margin-top: 2000px;
 }
 
 ::-webkit-scrollbar {
